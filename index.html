@@ -12,7 +12,7 @@
 
 <body class="bg-black text-white">
     <div class="parent flex container mx-auto">
-        <div class="w-[20%] fixed top-0">
+        <div class="lg:w-[80px] xl:w-[225px] hidden sm:hidden md:w-[12%]  md:block lg:block  fixed top-0">
             <svg viewBox="0 0 24 24" aria-hidden="true"
                 class="ml-6 invert w-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1nao33i r-16y2uox r-lwhw9o">
                 <g>
@@ -24,35 +24,43 @@
             <ul class="">
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">home</span>Home
+                    <span class="mr-4 material-symbols-outlined">home</span><span
+                        class="xl:block sm:hidden md:hidden hidden">Home</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">search</span>Explore
+                    <span class="mr-4 material-symbols-outlined">search</span><span
+                        class="xl:block sm:hidden md:hidden hidden">Explore</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">notifications</span>Notifications
+                    <span class="mr-4 material-symbols-outlined">notifications</span><span
+                        class="xl:block sm:hidden md:hidden hidden">Notifications</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">mail</span>Messages
+                    <span class="mr-4 material-symbols-outlined">mail</span><span
+                        class="xl:block sm:hidden md:hidden hidden">Messages</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">terminal</span>Grok
+                    <span class="mr-4 material-symbols-outlined">terminal</span><span
+                        class="xl:block sm:hidden md:hidden hidden">Grok</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">list_alt</span>List
+                    <span class="mr-4 material-symbols-outlined">list_alt</span><span
+                        class="xl:block sm:hidden md:hidden hidden">List</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">bookmark</span>Bookmarks
+                    <span class="mr-4 material-symbols-outlined">bookmark</span><span
+                        class="xl:block sm:hidden md:hidden hidden">Bookmarks</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">group</span>Communities
+                    <span class="mr-4 material-symbols-outlined">group</span><span
+                        class="xl:block sm:hidden md:hidden hidden">Communities</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
@@ -63,21 +71,26 @@
                                 d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
                             </path>
                         </g>
-                    </svg>Premium
+                    </svg><span class="xl:block sm:hidden md:hidden hidden">Premium</span>
                 </li>
                 <li
                     class="flex ml-4 font-bold font-sans px-2 h-8 mt-3 p-1 w-fit hover:cursor-pointer  hover:rounded-lg hover:bg-gray-800">
-                    <span class="mr-4 material-symbols-outlined">more_horiz</span>More
+                    <span class="mr-4 material-symbols-outlined">more_horiz</span><span
+                        class="xl:block sm:hidden md:hidden hidden">More</span>
                 </li>
-                <li class="ml-4 font-bold font-sans   mt-3  hover:cursor-pointer"><button
-                        class="bg-[#1c96e9] border-none w-[93%] px-10 py-3 rounded-2xl ">Post</button></li>
+                <li class=" font-bold font-sans   mt-3  hover:cursor-pointer">
+                    <div><button class="bg-[#1c96e9] border-none w-[70%] px-10 py-3 rounded-2xl ">P</button>
+                    </div>
+                </li>
             </ul>
         </div>
-        <div class="overflow-y-auto w-full border border-2 border-x-gray-500 border-y-black ml-[20%]">
+        <div
+            class="overflow-y-auto w-full  lg:bg-transparent xl:ml-[18%] lg:ml-[82px] md:ml-[82px]  border-2 border-x-gray-500 border-y-black ">
             <div class="wanttopost">
                 <div class="foryou fixed top-0   mx-auto">
 
-                    <div class="top grid w-[56.8%] h-10 grid-cols-2 justify-items-center fixed bg-[#000000c1]">
+                    <div
+                        class="top grid  justify-items-center h-10 grid-cols-2 fixed bg-[#000000c1] 2xl:w-[940px] xl:w-[740px] lg:w-[650px] md:w-[682px] sm:w-[100%] w-[100%]  ">
                         <div>
                             <h1 class="font-bold text-sm cursor-pointer">For You</h1>
                             <hr class="w-[100%] h-1 bg-[#1c96e9] border-none">
@@ -132,12 +145,10 @@
             <div class="algo">
                 <div class="narendra  m-4">
                     <div class="upward flex">
-                        <div class=" w-[12%] mr-2">
-                            <img class=" object-cover object-center w-[40px] h-[40px] m-1 rounded-[100%]"
-                                src="Resources/MODI.png">
-                        </div>
-                        <div class="feed">
-                            <div class="w-[100%] ml-2 flex flex-row justify-end">
+                        <img class=" object-cover object-center md:w-[40px] md:h-[40px] lg:w-[40px] lg:h-[40px] sm:w-[30px] sm:h-[30px] w-[30px] h-[30px] m-1 rounded-[100%]"
+                            src="Resources/MODI.png">
+                        <div class="feed w-full">
+                            <div class=" ml-2 flex flex-row justify-end">
                                 <div>
                                     <div class="flex items-baseline gap-x-1">
                                         <p class="font-[500] ">PMO India</p>
@@ -154,7 +165,7 @@
                                             शैलपुत्री की यह स्तुति…</p>
                                     </div>
                                 </div>
-                                <div class="more w-fit ml-2 ">
+                                <div class="more w-fit ml-2 hidden md:block lg:block xl:block sm:hidden ">
                                     <span
                                         class="text-[20px] text-gray-600 rounded-2xl hover:text-[#1c96e9] hover:bg-[#1c97e94c] material-symbols-outlined w-fit cursor-pointer">more_horiz</span>
                                 </div>
@@ -164,21 +175,21 @@
                                     src="https://pbs.twimg.com/media/Ey0ejaQUYAAfKf3?format=jpg&name=900x900" alt=""
                                     srcset="">
                             </div>
-                            <div class="reaction flex items-center justify-evenly ">
+                            <div class="reaction flex items-center justify-evenly  ">
                                 <label for="r1"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#1c96e9] material-symbols-outlined rounded-2xl hover:bg-[#1c97e93e] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r1">comment</span>1.7k</label>
                                 <label for="r2"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#1ce96e] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#1ce96e] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#1ce96e] material-symbols-outlined rounded-2xl hover:bg-[#1ce96e27] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r2">cached</span>6k</label>
                                 <label for="r3"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#e91c1c] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#e91c1c] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#e91c1c] material-symbols-outlined rounded-2xl hover:bg-[#e91c1c48] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r3">favorite</span>35k</label>
                                 <label for="r4"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#1c96e9] material-symbols-outlined rounded-2xl hover:bg-[#1c97e93e] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r4">bar_chart_4_bars</span>8</label>
                                 <label
@@ -193,15 +204,13 @@
                 </hr>
                 <div class="narendra  m-4">
                     <div class="upward flex">
-                        <div class=" w-[12%] mr-2">
-                            <img class=" object-cover object-center w-[40px] h-[40px] m-1 rounded-[100%]"
+                        <img class=" object-cover object-center md:w-[40px] md:h-[40px] lg:w-[40px] lg:h-[40px] sm:w-[30px] sm:h-[30px] w-[30px] h-[30px] m-1 rounded-[100%]"
                                 src="Resources/space_x.jpg" alt="" srcset="">
-                        </div>
                         <div class="feed">
                             <div class="w-[100%] ml-2 flex flex-row justify-between">
                                 <div>
                                     <div class="flex items-baseline gap-x-1">
-                                        <p class="font-[500] ">SAT on Solana</p>
+                                        <p class="font-[500] ">SAT on</p>
                                         <span
                                             class="material-symbols-outlined text-[#1c96e9] text-[15px]">new_releases</span>
                                         <p class="font-[500] text-gray-600 text-[14px] cursor-pointer">@satcoinsoloba
@@ -213,7 +222,7 @@
                                             address & RT</p>
                                     </div>
                                 </div>
-                                <div class="more w-fit ml-2 ">
+                                <div class="more w-fit ml-2 hidden md:block lg:block xl:block sm:hidden ">
                                     <span
                                         class="text-[20px] text-gray-600 rounded-2xl hover:text-[#1c96e9] hover:bg-[#1c97e94c] material-symbols-outlined w-fit cursor-pointer">more_horiz</span>
                                 </div>
@@ -222,21 +231,21 @@
                                 <img class="w-[90%] rounded-xl  border-[1px] mt-0 " src="Resources/cover_x.jpeg" alt=""
                                     srcset="">
                             </div>
-                            <div class="reaction flex items-center justify-evenly ">
+                            <div class="reaction flex items-center justify-evenly  ">
                                 <label for="r1"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#1c96e9] material-symbols-outlined rounded-2xl hover:bg-[#1c97e93e] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r1">comment</span>1.7k</label>
                                 <label for="r2"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#1ce96e] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#1ce96e] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#1ce96e] material-symbols-outlined rounded-2xl hover:bg-[#1ce96e27] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r2">cached</span>6k</label>
                                 <label for="r3"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#e91c1c] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#e91c1c] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#e91c1c] material-symbols-outlined rounded-2xl hover:bg-[#e91c1c48] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r3">favorite</span>35k</label>
                                 <label for="r4"
-                                    class="text-[14px] flex items-center px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
+                                    class="text-[14px] flex items-center sm:px-3 py-3 w-fit h-10 justify-center hover:text-[#1c96e9] text-gray-600"><span
                                         class="cursor-pointer hover:text-[#1c96e9] material-symbols-outlined rounded-2xl hover:bg-[#1c97e93e] w-8 h-7 text-gray-600 text-[24px]"
                                         id="r4">bar_chart_4_bars</span>8</label>
                                 <label
@@ -249,7 +258,7 @@
                 </div>
             </div>
         </div>
-        <div class="max-h-[110vh]  w-4/12 ">
+        <div class="w-4/12 hidden lg:block md:hidden  sm:hidden ">
             <div class="search m-4">
                 <label for="search" class="flex leading-6  bg-gray-800 rounded-xl">
                     <div class="img inline ">
@@ -337,7 +346,7 @@
                 <div class="persons">
                     <div class="celibrity flex">
                         <img class=" object-cover object-center w-[40px] h-[40px] m-1 rounded-[100%]"
-                            src="Resources/BCCI.jpg" alt="" srcset="">
+                            src="Resources/MODI.png" alt="" srcset="">
                         <div class="min-w-[50%]">
                             <p class="font-[500] ">PMO India</p>
                             <p class="font-[400] text-gray-600 text-[10px] cursor-pointer">@PMOIndia</p>
@@ -349,7 +358,7 @@
                     </div>
                     <div class="celibrity flex">
                         <img class=" object-cover object-center w-[40px] h-[40px] m-1 rounded-[100%]"
-                            src="Resources/MODI.png" alt="" srcset="">
+                            src="Resources/BCCI.jpg" alt="" srcset="">
                         <div class="min-w-[50%]">
                             <p class="font-[500] ">BCCI</p>
                             <p class="font-[400] text-gray-600 text-[10px] cursor-pointer">@BCCI</p>
